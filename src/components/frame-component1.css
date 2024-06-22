@@ -1,0 +1,71 @@
+.rectangle-div {
+  height: 5.063rem;
+  width: 43rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.chevron-up-icon1 {
+  height: 1.313rem;
+  width: 1.313rem;
+  position: relative;
+  object-fit: contain;
+  min-height: 1.313rem;
+  z-index: 2;
+}
+.week-2- {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.chevron-up-parent,
+.week-2-malware-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.week-2-malware-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.chevron-up-parent {
+  width: 15.375rem;
+  flex-direction: row;
+  gap: var(--gap-13xl);
+}
+.edit-icon1 {
+  width: 1.313rem;
+  height: 1.313rem;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.edit-wrapper,
+.rectangle-parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.rectangle-parent1 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-11xl) var(--padding-11xl) var(--padding-10xl)
+    var(--padding-16xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,41 @@
+.doorbell-icon1,
+.male-user-icon1 {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+  object-fit: cover;
+  min-height: 2.5rem;
+}
+.user-profile {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.search-bar,
+.user-menu,
+.user-profile {
+  display: flex;
+  align-items: flex-start;
+}
+.user-menu {
+  width: 8.25rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.search-bar {
+  width: 68.75rem;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
